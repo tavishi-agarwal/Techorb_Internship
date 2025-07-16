@@ -8,7 +8,7 @@ from surprise import accuracy
 import joblib
 
 # --- Load Data ---
-df = pd.read_csv("C:/Users/delis/Downloads/2019-Oct.csv/2019-Oct.csv", nrows=100000)
+df = pd.read_csv("2019-Oct.csv", nrows=100000)
 
 # Map event_type to ratings
 rating_map = {'purchase': 5, 'cart': 4, 'view': 3}
